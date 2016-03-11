@@ -1,0 +1,29 @@
+{
+  "name": "weixin-node-jssdk",
+  "version": "0.1.0",
+  "description": "生成微信JSSDK配置信息",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feiin/weixin-node-jssdk"
+  },
+  "keywords": [
+    "weixin-node-jssdk,weixin,jssdk,jssdkconfig"
+  ],
+  "bugs": {
+    "url": "https://github.com/feiin/weixin-node-jssdk/issues"
+  },
+  "homepage": "https://github.com/feiin/weixin-node-jssdk",
+  "author": "feiin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  }
+}

@@ -3,19 +3,14 @@ var jssdkConfig = require("../index");
 
 describe("test weixin jssdk",function(){
 
-    var appConfig = {
-        appId:'',
-        appSecret:''
-    };
     var options = {
-        appConfig:appConfig,
-        url:''
-    }
+    };
+
 
     before(function(done) {
-        appConfig.appId = 'appId';
-        appConfig.appSecret = 'secrect';
-        options.url = 'http://www.example.com/test';
+        options.appId = 'wxec0751e82f5d6b2d';
+        options.appSecret = 'cdd37a88d3219564582145532ac8d114';
+        options.url = 'http://test.aggior.com/mall';
         done();
 
     })
@@ -31,7 +26,6 @@ describe("test weixin jssdk",function(){
                 config.should.be.ok;
                 config.nonceStr.length.should.be.above(0);
                 config.timestamp.should.be.above(0);
-                config.url.should.not.be.empty();
                 config.signature.length.should.be.above(0);
                 done(error);
             });

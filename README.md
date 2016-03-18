@@ -19,17 +19,18 @@
   options.url = 'http://www.example.com/test';
   
   weixinJsConfig(options,function(error,config){
-  		//config
+  		//config 
+  		
   });
   
   
-  //config example:
+  //config :
   
   /*
   { nonceStr: 'qw9daikerfmexxxd',
   	 timestamp: 1457675573,
     signature: '8beb309515ca4fd6271a32de0e9732004094b07d',
-    appId: 'wxec0751e82f5dde2d' 
+    appId: 'wxec0751e82f5d6b2d' 
   }
   */
 ```	

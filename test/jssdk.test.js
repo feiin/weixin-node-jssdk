@@ -8,9 +8,9 @@ describe("test weixin jssdk",function(){
 
 
     before(function(done) {
-        options.appId = 'wxec0751e82f5d6b2d';
-        options.appSecret = 'cdd37a88d3219564582145532ac8d114';
-        options.url = 'http://test.aggior.com/mall';
+        options.appId = 'wxec0751e82f5d6e2d';
+        options.appSecret = 'cdd37a88d3229564582145532ac8d114';
+        options.url = 'http://www.example.com';
         done();
 
     })
